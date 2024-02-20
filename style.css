@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    height: 50px;
+    background-color: coral;
+    color: white;
+}
+
+.main {
+    margin: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    height: 25px;
+    width: 20vw;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+
+.answer h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+#answer {
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    padding: 10px 10px;
+font-size: 30px;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#currfrom, #currto{
+    font-size: 20px;
+}
